@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+/*App js*/
+.app {
+  width: 80%;
+  margin: auto;
+  padding:20px;
+  display: flex;
+  box-sizing: border-box;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+/* Table component */
+.table-component {
+  width: 100%;
+}
+.table-wrapper{
+  width: 70%;
+  margin: auto;
+  padding:8px;
+}
+/*User Info component*/
+.user-info-component{
+  width: 100%;
+  text-align: center;
+}
+#contact-details {
+  width: 70%;
+  margin: auto;
+  background-color: #E4E7EB;
+  color:#234361;
+  border-radius: 5px;
+  padding:8px;
+}
+.user-name {
+  color:#234361;
+}
+.prop{
+  color: #425A70;
+}
+/*Login history*/
+#login-history {
+  width: 100%;
+  text-align: left;
+}
+/* For smaller devices */
+@media screen and (max-width:1035px){
+  .app{
+    width: 100%;
+  }
+  .table-wrapper{
+    width:100%;
+    padding:0;
+  }
+  #contact-details {
+    width: 100%;
+    padding:0;
+  }
+}
+
+
+
+
+
